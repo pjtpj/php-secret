@@ -1,14 +1,14 @@
 php-secret
 =========
 
-PHP Secret is a PHP extension that allows storage and retreival of a "secret". The 
+PHP Secret is a PHP extension that allows storage and retrieval of a "secret". The 
 intended usages scenario is in a virtual hosting environment. Because of the way
 web server permissions work, it is fairly easy for one virtual host account to 
 see the source files for another virtual host account. With PHP Secret, passwords
 don't have to be saved in the PHP source code. Instead, they can be retrieved
 via the exs_get_secret() function. It is theoretically possible for PHP Secret
 to be very secure, but most hosting accounts have folder and/or files that
-are wrietable by the web server user and these folders or files can be used
+are writeable by the web server user and these folders or files can be used
 to defeat the security provided by PHP Secret.
 
 Build Instructions
