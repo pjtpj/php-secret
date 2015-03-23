@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE package SYSTEM "http://pear.php.net/dtd/package-1.0">
+<package version="1.0">
+  <name>secret</name>
+  <summary>T3city secret module for php</summary>
+  <description>This package provides a module for retreiving a secret stored in the T3city database.</description>
+  <maintainers>
+    <maintainer>
+      <user>pj</user>
+      <name>P.J. Tezza</name>
+      <email>pj@t3city.com</email>
+      <role>lead</role>
+    </maintainer>
+  </maintainers>
+  <release>
+    <version>1.2.0</version>
+    <date>2015-03-22</date>
+    <license>All Rights Reserved</license>
+    <state>alpha</state>
+    <notes>Ported to php5 on ubuntu trusty</notes>
+    <filelist>
+      <file role="src" baseinstalldir="/" name="config.m4"/>
+      <file role="src" baseinstalldir="/" name="php_secret.h"/>
+      <file role="src" baseinstalldir="/" name="secret.c"/>
+    </filelist>
+  </release>
+  <changelog>
+    <release>
+      <version>1.1.1</version>
+      <date>2009-10-24</date>
+      <license>All Rights Reserved</license>
+      <state>alpha</state>
+      <notes>Ported to php5 on ubuntu hardy</notes>
+    </release>
+  </changelog>
+</package>
